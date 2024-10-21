@@ -5,12 +5,12 @@
     string[] hobbies = new string[] { "Reading", "Watching movies", "Listening to music" };
     <form>
             <label class="form-label" for="fname">First name:</label> <br>
-        <input type="text" id="fname" name="fname"> <br>
+        <input class="form-control" type="text" id="fname" name="fname"> <br>
         @{}
         @for (int i = 0; i < @hobbies.Length; i++)
         {
-            <input class="form-check form-check-label" type="checkbox" id="hobby1" name="Hobby1" value="@hobbies[i]">
-            <label class="form-label" for="hobby1">@hobbies[i]</label> <br> <br>
+            <label  for="hobby1">@hobbies[i]</label>
+            <input class="form-check form-check-label" type="checkbox" id="hobby1" name="Hobby1" value="@hobbies[i]"> <br> <br>
         }
         <input class="btn btn-success" type="submit" value="Submit">
     </form>
