@@ -1,0 +1,11 @@
+﻿/.vs
+/bin/Debug/net8.0
+/obj
+/Properties
+/Lab3DB.sln
+/appsettings.Development.json
+/appsettings.json
+/Dockerfile
+/Lab3DB.csproj
+/Lab3DB.csproj.user
+/wwwroot
